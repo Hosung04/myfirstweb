@@ -1,0 +1,30 @@
+body{
+    margin :0%;
+    height: 100%;
+}
+h1{
+    font-size:45px;
+    text-align: center;
+    color:blue;
+    border-bottom: 5px solid grey;
+    padding: 20px; /* 안에 내용물과 얼만큼 띄울것인지*/
+    margin: 0; /* 다른 것들과 얼만큼 띄울것인지-*/
+}
+ul{
+    font-size: 18px;
+    border-right:5px solid gray;
+    width: 100px;
+    height: 800px;
+    padding: 30px;
+    margin:0;
+}
+#grid {
+    display: grid;
+    grid-template-columns: 180px 1fr;
+}
+#grid ul{
+    padding-left: 30px;
+}
+#article{
+    padding: 20px;
+}

@@ -3,36 +3,39 @@
     <head>
         <title>web1</title>
         <meta charset="utf-8">  
+        <meta name = "viewport" content = "width=device-width", initial-scale = "1.0">
+        <link rel="stylesheet" href = "style.css">
     </head>
     <body>
-        <h1><a href = "index.html">Home</a></h1>
-        <ul>
-            <li><a href = "publication.html">Publications</a></li>
-            <li><a href = "members.html">Members</a></li>
-            <li><a href = "other.html">Other</a></li>
-        </ul>
-        <form action = "http://localhost/login.php">
-            <p>ID: <input type="text" name = "id"></p>
-            <p>password: <input type="password" name = "pwd"></p>
-            <p>textarea:
-                <textarea cols = "50" rows = "3">default text</textarea>
-            </p>
-            <input type = "submit">
-        </form>
-        <p>contents 보기</p>
-        <p>
-            <a href = "dropdownlist.html"> dropdown list </a>
-        </p>
-        <p>
-            <a href = "checkbox.html"> checkbox </a>
-        </p>
-        <p>
-            <a href = "https://en.wikipedia.org/wiki/HTML"> HTML link </a>
-        </p>
-        
-        <br>
-        <img src="image1.jpg" width = "450">
-        <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/jSJM9iOiQ1g" frameborder="0" allowfullscreen></iframe>
+        <h1><a href = "index.html">AI LAB</a></h1>
+        <div id = "grid">
+            
+            <ul>
+                <li><a href = "publication.html">Publications</a></li>
+                <li><a href = "members.html">Members</a></li>
+                <li><a href = "other.html">Other</a></li>
+            </ul>
+
+            <div id = "article">
+                contents
+                <p>
+                    <a href = "java.html"> java </a>
+                </p>
+                <p>
+                    about forms: <a href = "form.html"> form </a>
+                </p>
+                <p>
+                    about css: <a href = "css.html"> css </a>
+                </p>
+                <p>
+                    <a href = "https://en.wikipedia.org/wiki/HTML"> HTML link </a>
+                </p>
+                
+                <br>
+                <img src="image1.jpg" width = "450">
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jSJM9iOiQ1g" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
     </body> 
 </html>
